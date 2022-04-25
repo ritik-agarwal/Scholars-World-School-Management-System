@@ -1,0 +1,97 @@
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+a:hover{
+   text-decoration-color: white;
+}
+.bg{
+    background-image: url("../images/2x1-rectangle.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 300px;
+}
+.image{
+    height: 150px;
+    width: 150px;
+}
+.ftr{background-color: #FEB25D;background-size: 100% 100%; background-repeat: no-repeat; width: auto; height: auto;}
+.copyright{margin-top: -33px;text-align: right;}
+@media(max-width:772px){.copyright{text-align: center;margin-top: 10px;}}
+.bg-contact{
+    background-image: url("../images/contact-page-background-web.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 400px;
+}
+
+#page-header {
+    height: 200px;
+    background: url('../images/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+  }
+
+  .about-img {
+    margin-top: -50px;
+  }
+  
+  .sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #727272;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  
+  
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
